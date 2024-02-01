@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="0dp"
+    android:layout_marginHorizontal="0dp"
+    android:background="@color/palepink"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/form_layout"
+        android:layout_width="match_parent"
+        android:layout_height="568dp"
+        android:layout_marginVertical="32dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/login_icon"
+            style="@style/LoginSignUpIconStyle"
+            android:layout_marginVertical="32dp"
+            android:src="@drawable/log_in_image" />
+
+        <TextView
+            style="@style/LogInTextStyle"
+            android:text="@string/hello" />
+
+        <TextView
+            style="@style/LogInTextStyle"
+            android:text="@string/welcome" />
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            style="@style/LogInEditTextStyle"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password_edit_text"
+            style="@style/LogInEditTextStyle"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/show_password_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showpassword"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/afregular"
+            android:textColor="@color/splashback"
+            android:textSize="20dp"
+            android:textColorHighlight="@color/splashback"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/ProgressBarStyle"
+            android:layout_marginTop="12dp"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_btn"
+            style="@style/ButtonStyle"
+            android:text="@string/log_in"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_below="@id/form_layout"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/WrapContentStyle"
+            android:text="@string/donthave"/>
+        <TextView
+            style="@style/WrapContentStyle"
+            android:textStyle="bold"
+            android:id="@+id/create_account_text_view_btn"
+            android:text="@string/signup"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

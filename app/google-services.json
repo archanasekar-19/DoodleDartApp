@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19740363829",
+    "project_id": "doodledart-e86db",
+    "storage_bucket": "doodledart-e86db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19740363829:android:33273d053eeb4338d1357c",
+        "android_client_info": {
+          "package_name": "com.example.doodledart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUT5hAsEVDfC1fC6qzeVsK2F5l10dwd2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

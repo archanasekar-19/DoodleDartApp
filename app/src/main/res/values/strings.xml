@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Doodle Dart</string>
+    <string name="email">Email</string>
+    <string name="hello">Hello</string>
+    <string name="lgs">Let\'s Get Started</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="donthave">Don\'t Have an Account ?\ </string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome">Welcome Back !</string>
+    <string name="already">Already have an Account ?\ </string>
+    <string name="description_add_btn">Add Note</string>
+    <string name="ave_note_btn">Save Note</string>
+    <string name="menu_btn">Menu</string>
+    <string name="notes">Notes</string>
+    <string name="signup">Sign Up</string>
+    <string name="addnote">Add a Note</string>
+    <string name="compose">Compose Your Thoughts!</string>
+    <string name="splash_image_description">Notes</string>
+    <string name="showpassword">Show Password</string>
+    <string name="splash_screen_note">
+        Add a note about anything (your thoughts,
+        your history essay
+        and share it with the world.)</string>
+</resources>
